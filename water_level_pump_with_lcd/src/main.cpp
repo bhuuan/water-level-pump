@@ -37,7 +37,7 @@ void loop() {
   int value = measureDistance();
   Serial.println(value);
 
-  if(value > 15) //the height of tank is 15cm
+  if(value > 16) //the height of tank is 15cm
   {
     digitalWrite(relay, 0);
     lcd.clear();
